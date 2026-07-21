@@ -59,14 +59,14 @@ public class Program2 {
             }
         }
 
-        System.out.println("------1 to 20 even no-------");
+        System.out.println("------1 too 20 even no-------");
         for (int i = 1; i <= 20; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
 
-        System.out.println("------1 to 100 even no-------");
+        System.out.println("------1 too 100 even no-------");
         for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
