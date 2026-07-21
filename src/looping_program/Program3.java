@@ -75,6 +75,15 @@ public class Program3 {
             i++;
         }
         
+        System.out.println("------divisible by 7 between 10 and 70-------");
+        i = 10;
+        while (i <= 70) {
+            if (i % 7 == 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+        
 
         System.out.println("------divisible by 2 and 5 between 30 and 100-------");
         i = 30;
