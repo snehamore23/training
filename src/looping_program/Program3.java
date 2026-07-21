@@ -11,6 +11,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------10 to 1-------");
         int j = 10;
         while (j >= 1) {
@@ -18,6 +19,7 @@ public class Program3 {
             j--;
         }
 
+        
         System.out.println("------Special char-------");
         char ch = '!';
         while (ch <= '/') {
@@ -25,6 +27,7 @@ public class Program3 {
             ch++;
         }
 
+        
         System.out.println("------A to Z-------");
         char c = 'A';
         while (c <= 'Z') {
@@ -32,6 +35,7 @@ public class Program3 {
             c++;
         }
         System.out.println();
+        
 
         System.out.println("------a to z-------");
         c = 'a';
@@ -41,6 +45,7 @@ public class Program3 {
         }
         System.out.println();
 
+        
         System.out.println("------sum of 1 to 10-------");
         int sum = 0;
         i = 1;
@@ -50,6 +55,7 @@ public class Program3 {
         }
         System.out.println(sum);
 
+        
         System.out.println("------product of no 1 to 5-------");
         int product = 1;
         i = 1;
@@ -59,6 +65,7 @@ public class Program3 {
         }
         System.out.println(product);
 
+        
         System.out.println("------divisible by 3 between 10 and 60-------");
         i = 10;
         while (i <= 60) {
@@ -67,6 +74,7 @@ public class Program3 {
             }
             i++;
         }
+        
 
         System.out.println("------divisible by 2 and 5 between 30 and 100-------");
         i = 30;
@@ -77,6 +85,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------1 to 20 even no-------");
         i = 1;
         while (i <= 20) {
@@ -86,6 +95,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------1 to 100 even no-------");
         i = 1;
         while (i <= 100) {
@@ -95,6 +105,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------1 to 20 odd no-------");
         i = 1;
         while (i <= 20) {
@@ -104,6 +115,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------1 to 100 odd no-------");
         i = 1;
         while (i <= 100) {
@@ -113,6 +125,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------table from 1 to 3-------");
         i = 1;
         while (i <= 3) {
@@ -128,6 +141,7 @@ public class Program3 {
             i++;
         }
 
+        
         System.out.println("------Product of numbers divisible by 2 between 1 and 10-------");
         int pro = 1;
         i = 1;
@@ -137,6 +151,8 @@ public class Program3 {
             }
             i++;
         }
+        
+        
         System.out.println("Product = " + pro);
 
         System.out.println("------Table of 2-------");
