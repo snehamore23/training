@@ -38,6 +38,27 @@ do {
 			System.out.println();
 		}
 	
+		
+		int n=255;
+		if(n%100==5) {
+			System.out.println("no ends with 55");
+				}else {
+					System.out.println("not ending with 55");
+				}
+}
+	
+	int side1=10;
+	int side2=10;
+	int side3=10;
+	
+	if(side1==side2 && side2==side3 && side3==side1) {
+		System.out.println("all side are equal");
 	}
-
+	else if(side1==side2 || side2==side3 || side3==side1) {
+		System.out.println("two side are equal");
+	}
+	else {
+		System.out.println("all side are diff");
+	}
+	}
 }

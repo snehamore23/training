@@ -52,6 +52,14 @@ public class Program2 {
             }
         }
 
+        
+        System.out.println("------divisible by 7 between 10 and 70-------");
+        for (int i = 10; i <= 70; i++) {
+            if (i % 7 == 0) {
+                System.out.println(i);
+            }
+        }
+
         System.out.println("------divisible by 2 and 5 between 30 and 100-------");
         for (int i = 30; i <= 100; i++) {
             if (i % 2 == 0 && i % 5 == 0) {
