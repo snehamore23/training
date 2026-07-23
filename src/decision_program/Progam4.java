@@ -7,10 +7,10 @@ public class Progam4 {
 		int age = 18;
 
         if (age >= 18)
-            System.out.println("Eligible to Vote");
+            System.out.println("Eligible to Vote..");
 
         if (age < 18)
-            System.out.println("Not Eligible to Vote");
+            System.out.println("Not Eligible to Vote..");
 		
 	}
 

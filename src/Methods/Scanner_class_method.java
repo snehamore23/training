@@ -20,7 +20,7 @@ public class Scanner_class_method {
 		
 		System.out.println("enter the String type of data");
 		String d=sc.next();
-		System.out.println("the string data is"+d);
+		System.out.println("the string of the data is"+d);
 
 
 
