@@ -2,16 +2,18 @@ package Static_And_non_static;
 
 public class Student {
 
+	private static final String female = null;
 	int rollno;
 	String subject;
 	String name;
 	int age;
-	//String gender;
-	//String dept;
+	String gender;
+	String dept;
 	double marks;
 	//double percent;
 	static String collegeName;
     static String univercityName;
+	private static String IT;
 	
 
 	public void study(){
@@ -27,11 +29,14 @@ public class Student {
 		System.out.println("dress code");
 	}
 	public void displaystudentdetails() {
-		System.out.println("student name "+name);
-		System.out.println("student rollno "+rollno);
-		System.out.println("student subject "+subject);
-		System.out.println("student marks "+marks);
-		System.out.println("student age "+ age);
+		System.out.println("student name: "+name);
+		System.out.println("student rollno: "+rollno);
+		System.out.println("student subject: "+subject);
+		System.out.println("student marks: "+marks);
+		System.out.println("student age: "+ age);
+		System.out.println("student gender: "+ gender);
+		System.out.println("student dept: "+ dept);
+		;
 	}
 //	public void AttendClass(){
 //	}
@@ -52,6 +57,9 @@ public class Student {
 		s1.name="sneha";
 		s1.marks=95.0;
 		s1.age=21;
+		s1.gender="female";
+		s1.dept="IT";
+		
 		
 		s1.collegeName="PVGCOE";
 	    s1.univercityName="SPPU";
@@ -69,6 +77,8 @@ public class Student {
 		s2.name="vaishnavi";
 		s2.marks=98.0;
 		s2.age=20;
+		s2.gender="female";
+		s2.dept="IT";
 		
 		s2.collegeName="PVGCOE";
 	    s2.univercityName="SPPU";
