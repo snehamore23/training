@@ -5,7 +5,7 @@ public class Student {
 	int rollno;
 	String subject;
 	String name;
-	//int age;
+	int age;
 	//String gender;
 	//String dept;
 	double marks;
@@ -31,6 +31,7 @@ public class Student {
 		System.out.println("student rollno "+rollno);
 		System.out.println("student subject "+subject);
 		System.out.println("student marks "+marks);
+		System.out.println("student age "+ age);
 	}
 //	public void AttendClass(){
 //	}
@@ -50,6 +51,7 @@ public class Student {
 		s1.rollno=4;
 		s1.name="sneha";
 		s1.marks=95.0;
+		s1.age=21;
 		
 		s1.collegeName="PVGCOE";
 	    s1.univercityName="SPPU";
@@ -66,6 +68,7 @@ public class Student {
 		s2.rollno=7;
 		s2.name="vaishnavi";
 		s2.marks=98.0;
+		s2.age=20;
 		
 		s2.collegeName="PVGCOE";
 	    s2.univercityName="SPPU";
