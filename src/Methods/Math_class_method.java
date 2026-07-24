@@ -15,7 +15,7 @@ public class Math_class_method {
 		int n2 =20;
 		System.out.println(Math.max(n1,n2));
 		System.out.println(Math.min(n1,n2));
-		syso
+		
 	}
 
 }
