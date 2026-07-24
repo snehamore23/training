@@ -9,7 +9,7 @@ public class Program8 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("enter character:");
-		char ch = sc.nextInt();
+		char ch = sc.next().charAt(0);
 	
 		/*switch(ch) {
 		case 'A':
