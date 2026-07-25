@@ -15,6 +15,10 @@ public class Student {
     static String univercityName;
 	private static String IT;
 	
+	static {
+		collegeName="pvgcoe";
+		univercityName="sppu";
+	}
 
 	public void study(){
 		System.out.println(name+ " studying subjedt "+subject);
@@ -29,6 +33,7 @@ public class Student {
 		System.out.println("dress code");
 	}
 	public void displaystudentdetails() {
+		System.out.println("------------STUDENT INFO---------------");
 		System.out.println("student name: "+name);
 		System.out.println("student rollno: "+rollno);
 		System.out.println("student subject: "+subject);
@@ -36,8 +41,33 @@ public class Student {
 		System.out.println("student age: "+ age);
 		System.out.println("student gender: "+ gender);
 		System.out.println("student dept: "+ dept);
+		System.out.println("student college name "+collegeName);
+		System.out.println("student univercity name"+ univercityName);
 		;
 	}
+		public Student(String subject) {
+			this.subject=subject;
+		}
+		public Student(String subject, int rollno) {
+			this.subject=subject;
+			this.rollno=rollno;
+	}
+		public Student(String subject, int rollno,String name) {
+			this.subject=subject;
+			this.rollno=rollno;
+			this.name=name;
+	}
+		
+		public Student(String subject, int rollno,String name,double marks,String dept, int age, String gender) {
+			this.subject=subject;
+			this.rollno=rollno;
+			this.name=name;
+			this.marks=marks;
+			this.dept=dept;
+			this.age=age;
+			this.gender=gender;
+	}
+		
 //	public void AttendClass(){
 //	}
 //	public void WriteExam(){
@@ -51,45 +81,21 @@ public class Student {
 //	{
 		public static void main(String[] args) {
 	
-		Student s1=new Student();
-		s1.subject="java";
-		s1.rollno=4;
-		s1.name="sneha";
-		s1.marks=95.0;
-		s1.age=21;
-		s1.gender="female";
-		s1.dept="IT";
+			
+			Student s1=new Student ("java", 101, "vaish", 99, "IT", 21,"female");
+			Student s2=new Student ("python", 103, "manu", 94, "Com", 21,"female");
+			Student s3=new Student ("c++", 105, "om", 97, "aids", 21,"male");
+			Student s4=new Student ("c", 108, "mayur", 93, "IT", 21,"male");
+			Student s5=new Student ("java", 102, "sakshi", 99, "IT", 21,"female");
+			s1.displaystudentdetails();
+			s2.displaystudentdetails();
+			s3.displaystudentdetails();
+			s4.displaystudentdetails();
+			s5.displaystudentdetails();
 		
-		
-		s1.collegeName="PVGCOE";
-	    s1.univercityName="SPPU";
-	    
-	    
-	    s1.displaystudentdetails();
-	  System.out.println("------------student 1----------------");
-	    s1.study();
-	    s1.ViewMarks();
-	    s1.collegerules();
-	    System.out.println("----------------------------");
-		Student s2=new Student();
-		s2.subject="python";
-		s2.rollno=7;
-		s2.name="vaishnavi";
-		s2.marks=98.0;
-		s2.age=20;
-		s2.gender="female";
-		s2.dept="IT";
-		
-		s2.collegeName="PVGCOE";
-	    s2.univercityName="SPPU";
-	    
-	    
-	    s2.displaystudentdetails();
-	  System.out.println("-----------student 2-----------------");
-	    s2.study();
-	    s2.ViewMarks();
-	    s2.collegerules();
 
+
+//
 
 	}
 
