@@ -1,4 +1,4 @@
-package Static_And_non_static;
+package Encapsulation;
 
 public class University {
 	
