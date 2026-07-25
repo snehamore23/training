@@ -84,8 +84,6 @@ public class Student {
 		else System.out.println();
 	}
 
-		
-		
 		public void study() {
 			System.out.println(name+ "studying the java subject");
 			
@@ -93,14 +91,18 @@ public class Student {
 		public void WriteExam() {
 			System.out.println("writing the java exam");
 		}
-		public void display_student() {
+		public void display_student(String username) {
+			if(username==name) {
 			System.out.println("----------student info---------");
 			System.out.println("student name: "+name);
 			System.out.println("student rollno: "+rollno);
 			System.out.println("student marks: "+marks);
 			System.out.println("student attendance: "+attendance);
 		}
-		public static void main(String[] args) {
+		else {
+			System.out.println("invalid  username");
+		}
+}
+
 	}
 
-}

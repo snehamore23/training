@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulstion;
 
 public class University {
 	
