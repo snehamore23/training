@@ -2,7 +2,7 @@ package Static_And_non_static;
 
 public class Student {
 
-	private static final String female = null;
+	
 	int rollno;
 	String subject;
 	String name;
@@ -13,7 +13,7 @@ public class Student {
 	//double percent;
 	static String collegeName;
     static String univercityName;
-	private static String IT;
+
 	
 	static {
 		collegeName="pvgcoe";
