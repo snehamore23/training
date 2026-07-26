@@ -94,7 +94,7 @@ public class Account {
         if (accountType != null && !accountType.isEmpty()) {
             this.accountType = accountType;
         } else {
-            System.out.println("Invalid account type.");
+            System.out.println("Invalid account type...");
         }
     }
 
