@@ -5,6 +5,7 @@ public class Employee {
 	private String employeeName;
 	private double salary;
 	private String department;
+	private String name;
 	
 	
 	public void work() {
@@ -55,8 +56,10 @@ public void setEmployeeName(String employeeName) {
 public double getSalary() {
 	if(name==employeeName) {
 	return salary;
+	}
 	else {
 		System.out.println();
+		return 0.0;
 	}
 }
 public void setSalary(double salary) {

@@ -1,6 +1,6 @@
 package Encapsulstion;
 
-public class Employee {
+public class University {
 
     private int employeeId;
     private String employeeName;
@@ -83,7 +83,7 @@ public class Employee {
 
     public static void main(String[] args) {
 
-        Employee emp = new Employee();
+        University emp = new University();
 
         emp.setEmployeeId(10);
         emp.setEmployeeName("Sneha");
