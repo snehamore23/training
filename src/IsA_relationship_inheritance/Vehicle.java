@@ -14,10 +14,11 @@ public void stop() {
 	System.out.println("vehicle stops with the help of breaks");
 }
 
-//public Vehicle(String brand, String speed){
-//	this.brand=brand;
-//	this.speed=speed;
-//}
+public Vehicle(String brand, String speed){
+	this.brand=brand;
+	this.speed=speed;
+	System.out.println("extended");
+}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

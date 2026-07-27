@@ -2,9 +2,9 @@ package IsA_relationship_inheritance;
 
 public class A {
 	int a=10;
-	static int b=20;
-	private int c=30;
-	private int d=40;
+	 int b=20;
+	 int c=30;
+	int d=40;
 	 
 	public void m1() {
 		System.out.println("non-static method executed");
@@ -21,9 +21,6 @@ public class A {
 	}
 	
  
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

@@ -6,9 +6,8 @@ public class Car extends Vehicle {
 	double price;
 	
 	public Car(String brand, String speed, String model,double price) {
-		this.brand=brand;
+		super (brand, speed);
 		this.model=model;
-		this.speed=speed;
 		this.price=price;
 	}
 	public void displayCar() {
