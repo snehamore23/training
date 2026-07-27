@@ -6,14 +6,14 @@ public class student {
 	int age;
 	double marks;
 	
-	Address address=new Address("6-1-6/2","nashik","maharastra");
-	
+   Address address;
+   
 	public void display() {
 		System.out.println("student name: " + name);
 		System.out.println("studnet age: " + age);
 		System.out.println("student gender: " + gender);
 		System.out.println("student marks: " + marks);
-        address.displayAddress();
+//        address.displayAddress();
 	}
 	
 	public student(String name, int age, String gender, double marks) {
