@@ -2,7 +2,7 @@ package IsA_relationship_inheritance;
 
 public class Vehicle {
 String brand;
-int speed;
+String speed;
 
 
 public void Start() {
@@ -13,6 +13,12 @@ public void Start() {
 public void stop() {
 	System.out.println("vehicle stops with the help of breaks");
 }
+
+//public Vehicle(String brand, String speed){
+//	this.brand=brand;
+//	this.speed=speed;
+//}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

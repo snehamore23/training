@@ -4,6 +4,7 @@ public class A {
 	int a=10;
 	static int b=20;
 	private int c=30;
+	private int d=40;
 	 
 	public void m1() {
 		System.out.println("non-static method executed");
@@ -13,6 +14,9 @@ public class A {
 		System.out.println("");
 	}
 	public void m3() {
+		System.out.println("");
+	}
+	public void m4() {
 		System.out.println("");
 	}
 	
