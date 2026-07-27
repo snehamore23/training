@@ -1,0 +1,1 @@
+package IsA_relationship_inheritance;
