@@ -2,10 +2,11 @@ package Polymorphism;
 
 public class Animal {
 
-	public static void main(String[] args) {
+	public void Sound() {
 		System.out.println("Animal Sound");
 		// TODO Auto-generated method stub
 
 	}
 
+	
 }

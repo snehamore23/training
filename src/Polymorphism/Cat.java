@@ -7,8 +7,11 @@ public class Cat extends Animal{
 	}
 
 	public static void main(String[] args) {
-		Cat c=new Cat();
-		c.Sound();
+//		Cat c=new Cat();
+//		c.Sound();
+		
+		Animal a=new Cat();
+		a.Sound();
 		// TODO Auto-generated method stub
 
 	}
