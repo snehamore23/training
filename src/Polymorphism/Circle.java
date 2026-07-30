@@ -1,18 +1,27 @@
 package Polymorphism;
 
-public class Circle {
-	public void draw() {
-		System.out.println("Draw the shape");
-	}
-	
-	public void calculateArea() {
-		System.out.println("calculate area");
-	}
+public class Circle extends Shape {
 
-	public static void main(String[] args) {
-		Shape s=new Circle("Circle", "round", "red",)
-		// TODO Auto-generated method stub
+    public Circle(String shape, String properties, String color, int borderWidth, String material) {
+        super(shape, properties, color, borderWidth, material);
+    }
 
-	}
+    @Override
+    public void draw() {
+        System.out.println("Drawing Circle");
+    }
 
+    @Override
+    public void calculateArea() {
+        System.out.println("Area of Circle = πr²");
+    }
+
+    public static void main(String[] args) {
+
+        Shape s = new Circle("Circle", "Round", "Red", 2, "Plastic");
+
+        s.display();
+        s.draw();
+        s.calculateArea();
+    }
 }
