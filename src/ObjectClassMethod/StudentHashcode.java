@@ -22,12 +22,12 @@ public class StudentHashcode {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
+//		if (this == obj)
+//			return true;
+//		if (obj == null)
+//			return false;
+//		if (getClass() != obj.getClass())
+//			return false;
 		StudentHashcode other = (StudentHashcode) obj;
 		return age == other.age && Objects.equals(name, other.name);
 	}
@@ -41,7 +41,7 @@ public class StudentHashcode {
 		System.out.println(s1.hashCode());
 		System.out.println(s2.hashCode());
 		
-		// TODO Auto-generated method stub
+	
 
 	}
 
