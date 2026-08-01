@@ -19,8 +19,8 @@ public class DHE {
 		try {
 			throw new  ArithmeticException();
 			throw new NullPointerException();
-			throw new ArrayIndexOutOfBoundsException();
-			throw new ArrayStringOutOfBoundException();
+//			throw new ArrayIndexOutOfBoundsException();
+//			throw new ArrayStringOutOfBoundException();
 			throw new ClassCastException();
 			throw new RuntimeException();
 			
