@@ -6,10 +6,10 @@ public class customer {
 	int customerid;
 	String address;
 
-	public customer(String name, int i, String string) {
+	public customer(String name, int customerid, String string) {
 		super();
 		this.name = name;
-		this.customerid = i;
+		this.customerid = customerid;
 		this.address = string;
 	}
 
