@@ -9,9 +9,9 @@ public class Boolean1 {
 			return new Boolean1(value);
 		}
 		public static void main1(String[] args) {
-			boolean a=true;
+			Boolean a=true;
 			Boolean1 ref1=Boolean1.valueOf(a); //boxing
-			Boolean1 value=ref1.BooleanValue();//unboxing
+			Boolean1 value=ref1.valueOf(a);//unboxing
 			
 			System.out.println(ref1);
 			System.out.println(value);
