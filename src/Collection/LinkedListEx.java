@@ -10,6 +10,7 @@ public class LinkedListEx {
 	l1.add(30);
 	l1.add(40);
 	l1.add(50);
+	//l1.clear();
 	
 	System.out.println(l1);
 	
@@ -44,6 +45,11 @@ public class LinkedListEx {
 	System.out.println(l1.contains(30));
 	System.out.println(l1.size());
 	System.out.println(l1.isEmpty());
+	System.out.println(l1.indexOf(50));
+	System.out.println(l1.lastIndexOf(30));
+	System.out.println(l1.clone());
+	
+	
 	
 
 	}
