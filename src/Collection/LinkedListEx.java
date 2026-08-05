@@ -1,4 +1,5 @@
 package Collection;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class LinkedListEx {
@@ -48,6 +49,14 @@ public class LinkedListEx {
 	System.out.println(l1.indexOf(50));
 	System.out.println(l1.lastIndexOf(30));
 	System.out.println(l1.clone());
+	
+	Object ref[]=l1.toArray();
+	System.out.println(ref);
+	System.out.println(Arrays.toString(ref));
+	
+	for(int i=0;i<l1.size();i++) {
+		System.out.println(l1.get(i));
+	}
 	
 	
 	
