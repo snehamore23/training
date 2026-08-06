@@ -31,10 +31,10 @@ public class BankSystem {
 	        s1.deposit(2000);
 
 //	        // Withdraw
-//	        b1.withdraw(1500);
+        s1.withdraw(1500);
 //
 //	        // Transfer
-//	        b1.transfer(s2, 3000);
+//        s1.Transfer( 3000);
 
 	        // Apply Interest
 	        s1.applyMonthlyInterest();
