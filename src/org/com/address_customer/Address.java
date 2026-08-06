@@ -1,24 +1,24 @@
 package org.com.address_customer;
 
 public class Address {
-	String city;
-	String zipcode;
-	
-	public Address(String string, String string2) {
-		// TODO Auto-generated constructor stub
-	}
 
-	public void Address(String city, String zipCode) {
-		this.city=city;
-		this.zipcode=zipcode;
-	}
-	
-	public void getFullAddress() {
-		System.out.println("Address is: "+("city"+"zipcode"));
-	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    private String city;
+    private String zipcode;
 
-	}
+    // Constructor
+    public Address(String city, String zipcode) {
+        this.city = city;
+        this.zipcode = zipcode;
+    }
 
+    // Display Address
+    public void getFullAddress() {
+        System.out.println("City : " + city);
+        System.out.println("Zip Code : " + zipcode);
+    }
+
+    @Override
+    public String toString() {
+        return city + " - " + zipcode;
+    }
 }
