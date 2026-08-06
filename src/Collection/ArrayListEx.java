@@ -60,7 +60,7 @@ public class ArrayListEx {
 //		while(itr.hasNext());
 //		System.out.println(itr.next());
 
-		ListIterator ltr=al.ListIterator(al.size());
+		ListIterator ltr=al.listIterator(al.size());
 		while(ltr.hasPrevious()) {
 			System.out.println(ltr.previous());
 		}
