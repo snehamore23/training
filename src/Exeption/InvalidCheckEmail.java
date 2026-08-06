@@ -1,13 +1,9 @@
 package Exeption;
 
-public class InvalidCheckEmail {
-	public InvalidCheckEmail (String email) {
-		super();
-		}
+public class InvalidCheckEmail extends Exception {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+    public InvalidCheckEmail(String message) {
+        super(message);
+    }
 
 }
