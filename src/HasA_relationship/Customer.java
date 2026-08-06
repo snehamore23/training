@@ -31,13 +31,7 @@ public class Customer {
 			c1.account.displayAccountInformation();
 			c1.account.deposite(1000);
 			c1.account.withdraw(500);
-			c1.account.displayBalance();			
-			
-		}
-
-		// TODO Auto-generated method stub
-		
+			c1.account.displayBalance();	
 	}
-
-	}
+}
 
