@@ -23,7 +23,6 @@ public Example(int a) {
 public abstract void m3() ;
 
 public static void main(String []args) {
-	Example e=new Example();
 	
 }
 }

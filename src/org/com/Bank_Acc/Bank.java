@@ -1,49 +1,52 @@
 package org.com.Bank_Acc;
-
 import org.com.address_customer.Customer;
-
+import Exception.*;
 public abstract class Bank {
-	String Acc_no;
-	double balance;
-	Customer AccountHolder;
-	
 
-	public Bank(String acc_no) {
-		super();
-		this.Acc_no = acc_no;
-		this.balance = balance;
-		this.AccountHolder = AccountHolder;
-	}
+    protected String accNo;
+    protected double balance;
+    protected Customer accountHolder;
 
-			public void deposit(double amount) {
-				System.out.println("Previous Balance: "+balance);
-				balance+=amount;
-				System.out.println("Amount deposited: "+amount);
-			}
-			public abstract void withdraw (double amount);
-			
-			public void transfer(Bank targetAccount, double amount) {
-				 withdraw(amount);
-			        targetAccount.deposit(amount);
+    // Constructor
+    public Bank(String accNo, double balance, Customer accountHolder) {
+        this.accNo = accNo;
+        this.balance = balance;
+        this.accountHolder = accountHolder;
+    }
 
-			        System.out.println("Transfer Successful");			
-			}
-			public void checkBalance() {
-				 System.out.println("Current Balance : " + balance);	
-			}
-			public void displayAccountDetails() {
+    // Deposit
+    public void deposit(double amount) {
+        balance += amount;
+        System.out.println("Amount Deposited : " + amount);
+    }
 
-			    System.out.println("===== Bank Account Details =====");
-			    System.out.println("Account Number : " + Acc_no);
-			    System.out.println("Balance : " + balance);
+    // Abstract Withdraw
+    public abstract void withdraw(double amount);
 
-			    System.out.println("Customer Name : " + AccountHolder.name);
-			    System.out.println("Customer ID : " + AccountHolder.customerid);
+    // Transfer
+    public void transfer(Bank targetAccount, double amount) {
 
-		    }
-			public String getAccountNumber() {
-				return Acc_no;
-			}
+        this.withdraw(amount);
+        targetAccount.deposit(amount);
 
+        System.out.println("Transfer Successful");
+    }
 
+    // Check Balance
+    public void checkBalance() {
+        System.out.println("Current Balance : " + balance);
+    }
+
+    // Display Details
+    public void displayAccountDetails() {
+
+        System.out.println("===== Account Details =====");
+        System.out.println("Account Number : " + accNo);
+        System.out.println("Balance : " + balance);
+        System.out.println(accountHolder);
+    }
+
+    public String getAccountNumber() {
+        return accNo;
+    }
 }
