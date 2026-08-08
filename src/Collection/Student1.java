@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Student1 implements Comparable<Student1>{
+	private static final Object Student = null;
 	int age;
 	String name;
 	double marks;
@@ -26,7 +27,7 @@ public class Student1 implements Comparable<Student1>{
 
 
 	@Override
-	public String toString() {
+	public static String toString() {
 		return "Student1 [age=" + age + ", name=" + name + ", marks=" + marks + ", rollno=" + rollno + "]";
 	}
 
@@ -41,7 +42,6 @@ public class Student1 implements Comparable<Student1>{
 		
 		System.out.println(tm);
 		
-		for (Map.entry(<Student,String))
 
 
 	}
