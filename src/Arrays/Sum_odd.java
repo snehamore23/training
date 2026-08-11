@@ -15,8 +15,8 @@ public class Sum_odd {
             }
         }
 
-        System.out.println("Sum of even elements: " + evensum);
-        System.out.println("Sum of odd elements: " + oddsum);
+        System.out.println("Sum of even elements : " +  evensum);
+        System.out.println("Sum of odd elements : " +  oddsum);
 
 	}
 }
